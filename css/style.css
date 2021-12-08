@@ -4,5 +4,34 @@
 
 .banner-section img {
   width: 100%;
-  height: 500px;
+  height: 600px;
+  margin-bottom: 50px;
+}
+.about-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px;
+  margin-bottom: 50px;
+}
+
+.about-content p {
+  text-align: justify;
+  line-height: 40px;
+  margin-right: 15px;
+  text-transform: capitalize;
+}
+
+/* Responsive  */
+@media only screen and (max-width: 688px) {
+  .about-section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .about-img img {
+    width: 100%;
+  }
+  .about-content h2,
+  p {
+    margin-left: 15px;
+  }
 }
