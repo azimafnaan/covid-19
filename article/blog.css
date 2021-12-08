@@ -1,0 +1,13 @@
+.blog-img {
+  margin-bottom: 50px;
+}
+.blog-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.blog-content p {
+  text-align: justify;
+  line-height: 40px;
+  font-size: 18px;
+}
